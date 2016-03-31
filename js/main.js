@@ -77,14 +77,14 @@ $(function() {
 	jQuery(".our-games-content").slick({
 		slidesToShow: 4,
 		slidesToScroll: 4,
-		dots: true,
+		dots: false,
 		infinite: true,
 		speed: 300,
 		centerMode: true,
 		variableWidth: true,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 8000,
 		responsive: [
 			{
 				breakpoint: 800,
