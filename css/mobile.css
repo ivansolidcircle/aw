@@ -313,32 +313,44 @@ header {
 .box-contact-phone-mobile {
 	background-image: url(../img/bg/bg-phone.png);
 	background-size: 100% 100%;
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
 }
 
 .box-contact-wa-mobile {
-	background-image: url(../img/bg/bg-wa.png);
+	background-image: url(../img/bg/bg-phone.png);
 	background-size: 100% 100%;
+	border-bottom: 1px solid #707070;
 }
 
 .box-contact-bbm-mobile {
-	background-image: url(../img/bg/bg-bbm.png);
+	background-image: url(../img/bg/bg-phone.png);
 	background-size: 100% 100%;
+	border-bottom: 1px solid #707070;
 }
 
 .box-contact-chat-mobile {
-	background-image: url(../img/bg/bg-chat.png);
+	background-image: url(../img/bg/bg-phone.png);
 	background-size: 100% 100%;
+	border-bottom: 1px solid #707070;
 }
 
 .box-contact-text-mobile {
-	color: #ffffff;
+	color: #323232;
 	font-size: 16px;
-	line-height: 64px;
+	line-height: 23px;
 	height: 64px;
+	width: 180px;
+	padding-top: 8px;
 }
 
 .box-contact-phone-mobile .box-contact-text-mobile {
-	color: #000000 !important;
+	color: #323232 !important;
+}
+
+.box-contact-chat-mobile .box-contact-text-mobile {
+	line-height: 64px;
+	padding-top: 0px;
 }
 
 /*
@@ -908,7 +920,7 @@ main {
 */
 
 .deposit-content {
-	min-height: 1024px;
+	min-height: 100px;
 	background-image: url(../img/bg/bg-div-main-content-deposit.png);
 	background-size: cover;
 }
@@ -1062,10 +1074,48 @@ main {
 ** Login Register
 */
 
-.login-register {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+	background-color: transparent;
+}
+
+input[type="checkbox"] {
+	border-color: #86b71c;
+}
+
+.login {
 	width: 320px;
 	min-height: 200px;
 	background-color: #ffffff;
+}
+
+.login-single {
+	width: 320px;
+	min-height: 200px;
+	padding-bottom: 50px;
+}
+
+.register {
+	width: 320px;
+	min-height: 200px;
+	background-color: #ffffff;
+}
+
+.register-single {
+	width: 320px;
+	min-height: 200px;
+	padding-bottom: 50px;
+}
+
+.register-form-wrapper {
+	min-height: 10px;
+}
+
+.register-form-div {
+	width: 260px;
+	min-height: 10px;
 }
 
 .login-register-close {
@@ -1081,6 +1131,15 @@ main {
 
 .login-register-title {
 	color: #464646;
+	padding: 35px 0px;
+	text-transform: uppercase;
+	font-family: "Oswald";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.login-register-title-single {
+	color: #ffffff;
 	padding: 35px 0px;
 	text-transform: uppercase;
 	font-family: "Oswald";
@@ -1106,8 +1165,8 @@ main {
 .login-register-form-item-container-noborder label {
 	color: #b8b8b8;
 	font-family: "Oswald";
-	font-size: 12px;
-	line-height: 15px;
+	font-size: 13px;
+	line-height: 16px;
 }
 
 .login-register-form-item-container-noborder span {
@@ -1157,6 +1216,24 @@ main {
     -o-appearance: none;
     -ms-appearance: none;
     appearance: none;
+}
+
+.register-submit {
+	width: 260px;
+	min-height: 10px;
+	margin: auto;
+}
+
+.register-ul {
+	list-style-image: url(../img/icon/confirm-box.png);
+	padding-left: 15px;
+}
+
+.register-li {
+	color: #b8b8b8;
+	font-family: "Oswald";
+	font-size: 13px;
+	line-height: 16px;
 }
 
 /*

@@ -29,4 +29,11 @@ $(function() {
 		});
 		return false;
 	});
+	$("#datepicker").datepicker({
+		changeYear: true,
+		changeMonth: true,
+		yearRange: "1950:2050",
+		showAnim: "fold",
+		dateFormat: "dd-mm-yy"
+	});
 });

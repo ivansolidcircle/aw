@@ -26,7 +26,7 @@ $(function() {
         });
 	}
 	/* box contact hover effect */
-	$(".box-contact-text").hide();
+	/*$(".box-contact-text").hide();
 	$(".box-contact-content").hover(function() {
 		$(this).animate({
 			width: "300px"
@@ -43,7 +43,7 @@ $(function() {
 			width: "64px"
 		});
 		$(".box-contact-text").hide();
-	});
+	});*/
 	/* notif */
 	$(".ul-text-notif").ticker({ 
 		interval: 7000,

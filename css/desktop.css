@@ -236,46 +236,53 @@ header {
 
 .box-contact {
 	height: 256px;
-	min-width: 64px;
+	min-width: 250px;
 	top: 0px;
 	margin-top: 140px;
-	right: 0px;
+	right: 30px;
 }
 
 .box-contact-content {
 	height: 64px;
-	width: 64px;
+	width: 250px;
 }
 
 .box-contact-phone {
-	background-image: url(../img/bg/bg-phone.png);
+	background-image: url(../img/bg/bg-contact-1.png);
 	background-size: 100% 100%;
 }
 
 .box-contact-wa {
-	background-image: url(../img/bg/bg-wa.png);
+	background-image: url(../img/bg/bg-contact-2.png);
 	background-size: 100% 100%;
 }
 
 .box-contact-bbm {
-	background-image: url(../img/bg/bg-bbm.png);
+	background-image: url(../img/bg/bg-contact-3.png);
 	background-size: 100% 100%;
 }
 
 .box-contact-chat {
-	background-image: url(../img/bg/bg-chat.png);
+	background-image: url(../img/bg/bg-contact-4.png);
 	background-size: 100% 100%;
 }
 
 .box-contact-text {
-	color: #ffffff;
+	color: #323232;
 	font-size: 16px;
-	line-height: 64px;
+	line-height: 23px;
 	height: 64px;
+	width: 174px;
+	padding-top: 10px;
 }
 
 .box-contact-phone .box-contact-text {
-	color: #000000 !important;
+	color: #323232 !important;
+}
+
+.box-contact-chat .box-contact-text {
+	line-height: 64px;
+	padding-top: 0px;
 }
 
 /*
@@ -971,10 +978,54 @@ main {
 ** Login Register
 */
 
-.login-register {
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+	background-color: transparent;
+}
+
+input[type="checkbox"] {
+	border-color: #86b71c;
+}
+
+.login {
 	width: 320px;
 	min-height: 200px;
 	background-color: #ffffff;
+}
+
+.login-single {
+	width: 320px;
+	min-height: 200px;
+	margin-left: 290px;
+	margin-top: 250px;
+}
+
+.register {
+	width: 640px;
+	min-height: 200px;
+	background-color: #ffffff;
+}
+
+.register-single {
+	width: 640px;
+	min-height: 200px;
+	margin-left: 130px;
+	margin-top: 101px;
+}
+
+.register-form-wrapper {
+	min-height: 10px;
+}
+
+.register-form-div {
+	width: 275px;
+	min-height: 10px;
+}
+
+.register-form-left {
+	margin-right: 30px;
 }
 
 .login-register-close {
@@ -990,6 +1041,15 @@ main {
 
 .login-register-title {
 	color: #464646;
+	padding: 35px 0px;
+	text-transform: uppercase;
+	font-family: "Oswald";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.login-register-title-single {
+	color: #ffffff;
 	padding: 35px 0px;
 	text-transform: uppercase;
 	font-family: "Oswald";
@@ -1015,8 +1075,8 @@ main {
 .login-register-form-item-container-noborder label {
 	color: #b8b8b8;
 	font-family: "Oswald";
-	font-size: 12px;
-	line-height: 15px;
+	font-size: 13px;
+	line-height: 16px;
 }
 
 .login-register-form-item-container-noborder span {
@@ -1066,6 +1126,24 @@ main {
     -o-appearance: none;
     -ms-appearance: none;
     appearance: none;
+}
+
+.register-submit {
+	width: 330px;
+	min-height: 10px;
+	margin: auto;
+}
+
+.register-ul {
+	list-style-image: url(../img/icon/confirm-box.png);
+	padding-left: 15px;
+}
+
+.register-li {
+	color: #b8b8b8;
+	font-family: "Oswald";
+	font-size: 13px;
+	line-height: 16px;
 }
 
 /*
