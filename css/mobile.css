@@ -473,15 +473,15 @@ main {
 }
 
 .main-content-mid-daftar {
-	margin-left: 17px;	
+	margin-left: 17px;
 }
 
 .main-content-mid-deposit {
-	margin-left: 26px;	
+	margin-left: 26px;
 }
 
 .main-content-mid-play {
-	margin-left: 14px;	
+	margin-left: 14px;
 }
 
 .main-content-mid-box a {
@@ -760,7 +760,7 @@ main {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	margin: 0px 20px 20px 0px; 
+	margin: 0px 20px 20px 0px;
 }
 
 .casino-box:hover {
@@ -818,7 +818,7 @@ main {
 	width: 280px;
 	margin: 0px auto 50px;
 }
-.casino-detail-image img { 
+.casino-detail-image img {
 	width: 100%;
 }
 
@@ -1451,4 +1451,101 @@ footer {
 	color: #919191;
 	font-size: 11px;
 	line-height: 57px;
+}
+
+
+/*userpanel*/
+.table-box-wrapper{
+	width: 320px;
+	margin: 50px auto;
+}
+.user-panel-table{
+	width: 100%;
+	color: rgba(255, 255, 255, 0.72);
+	text-align: center;
+	border-collapse: collapse;
+	border-radius: 30px;
+	border: 1px solid black;
+	line-height: 25px;
+}
+.user-panel-table th{
+	background-color: #464646;
+	height: 45px;
+	line-height: 40px;
+}
+.user-panel-table td{
+	border: 1px solid rgba(0, 0, 0, 0.46);
+}
+.user-panel-table tr{
+	background-color: #7a7a7a;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.46);
+}
+
+.user-panel-table tr:nth-child(even){
+	background-color: #969696;
+}
+
+/*userpanel*/
+
+
+/*notification*/
+.notifaction-box{
+	border: 1px solid #4eba75;
+	font-size: 13px;
+	color: white;
+	vertical-align: top;
+	width: 320px;
+	border-radius: 70px;
+	margin: 150px auto;
+	line-height: 40px;
+	padding: 2px;
+}
+.notification-box span{
+	color: white;
+	position: relative;
+	top: 30px;
+	line-height: 30px;
+}
+.notification-image{
+	padding: 5px;
+	height: 40px;
+	vertical-align: top;
+}
+/*notification*/
+
+
+.inputs{
+	border: 1px solid #46b3e6;
+	height: 30px;
+	width: 320px;
+	height: 45px;
+	padding-left: 20px;
+	border-radius: 2px;
+	margin-top: 10px;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+.blue-btn{
+	background-color: #46b3e6;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.87);
+	cursor: pointer;
+}
+.input-container{
+	width: 320px;
+	margin: auto;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(205, 205, 205, 0.87);
+}
+
+.notification-box{
+	width: 320px;
 }
