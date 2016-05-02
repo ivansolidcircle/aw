@@ -992,7 +992,11 @@ input[type="checkbox"] {
 .login {
 	width: 320px;
 	min-height: 200px;
+<<<<<<< HEAD
 	margin: auto;
+=======
+	background-color: #ffffff;
+>>>>>>> origin
 }
 
 .login-single {
@@ -1005,7 +1009,11 @@ input[type="checkbox"] {
 .register {
 	width: 640px;
 	min-height: 200px;
+<<<<<<< HEAD
 	margin: auto;
+=======
+	background-color: #ffffff;
+>>>>>>> origin
 }
 
 .register-single {
@@ -1040,7 +1048,11 @@ input[type="checkbox"] {
 }
 
 .login-register-title {
+<<<<<<< HEAD
 	color: #FEFEFE;
+=======
+	color: #464646;
+>>>>>>> origin
 	padding: 35px 0px;
 	text-transform: uppercase;
 	font-family: "Oswald";
@@ -1100,7 +1112,11 @@ input[type="checkbox"] {
 
 .login-register-submit,
 .login-register-form-item-container input {
+<<<<<<< HEAD
 	color: #333333;
+=======
+	color: #b8b8b8;
+>>>>>>> origin
 	font-family: "Oswald";
 	font-size: 16px;
 	line-height: 16px;
@@ -1429,6 +1445,7 @@ footer {
 	font-size: 14px;
 	color: rgba(205, 205, 205, 0.87);
 }
+<<<<<<< HEAD
 
 .menu-after-login{
 	float: right;
@@ -1496,3 +1513,5 @@ footer {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
+=======
+>>>>>>> origin

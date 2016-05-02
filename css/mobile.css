@@ -1549,6 +1549,7 @@ footer {
 .notification-box{
 	width: 320px;
 }
+<<<<<<< HEAD
 .user-dropdown{
 	display: none;
 	background-color: rgb(225, 225, 225);
@@ -1611,3 +1612,5 @@ footer {
     transform: skewX(-16deg) skewY(19deg) rotateZ(28deg);
 	 left: 23px;
 }
+=======
+>>>>>>> origin
