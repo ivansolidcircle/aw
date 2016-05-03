@@ -1190,7 +1190,7 @@ input[type="checkbox"] {
 
 .login-register-submit,
 .login-register-form-item-container input {
-	color: #b8b8b8;
+	color: #333333;
 	font-family: "Oswald";
 	font-size: 16px;
 	line-height: 16px;
@@ -1549,7 +1549,6 @@ footer {
 .notification-box{
 	width: 320px;
 }
-<<<<<<< HEAD
 .user-dropdown{
 	display: none;
 	background-color: rgb(225, 225, 225);
@@ -1591,15 +1590,6 @@ footer {
 .user-container:hover +.user-dropdown{
 	display: block;
 }
-.user-container::after{
-	content: "v";
-	font-size: 10px;
-	line-height: 15px;
-	color: grey;
-	transform: scaleX(1.5);
-	float: right;
-	padding: 0px
-}
 
 .user-dropdown::after {
     width: 21px;
@@ -1612,5 +1602,10 @@ footer {
     transform: skewX(-16deg) skewY(19deg) rotateZ(28deg);
 	 left: 23px;
 }
-=======
->>>>>>> origin
+
+.menu-after-login{
+	display: none;
+}
+.user-container{
+	height: 0;
+}

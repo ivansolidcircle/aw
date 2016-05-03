@@ -45,7 +45,7 @@ $(function() {
 		$(".box-contact-text").hide();
 	});*/
 	/* notif */
-	$(".ul-text-notif").ticker({ 
+	$(".ul-text-notif").ticker({
 		interval: 7000,
 		effect: "fadeIn",
 		duration: 250
@@ -68,7 +68,7 @@ $(function() {
         content: $("<span class='taCenter text-tooltip'>Jam BRI Offline:<br />Senin - Minggu = 00.00 WIB - 05.00 WIB</span>")
     });
     /* berita bola slider */
-	$(".crsl-items").carousel({ 
+	$(".crsl-items").carousel({
 		visible: 2,
 		itemMinWidth: 450,
 		itemMargin: 10
@@ -128,9 +128,9 @@ $(function() {
 		var winWidth = $(window).width();
 		var winHeight = $(window).height();
 		var docHeight = $(document).height();
-		$(".back-black").width(winWidth);
-		$(".back-black").height(docHeight);
-		$(".back-black").show();
+		// $(".back-black").width(winWidth);
+		// $(".back-black").height(docHeight);
+		// $(".back-black").show();
 		$(".popup").load(currHref, function(){
 			var popupWidth = $(".popup").width();
 			var popupHeight = $(".popup").height();
@@ -150,7 +150,6 @@ $(function() {
 			$(".popup").css("top", topMargin+"px");
 			$(".popup").show();
 		});
-		return false;
 	});
 	$(".back-black").click(function(){
 		$(".back-black").hide();
