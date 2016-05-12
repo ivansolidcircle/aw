@@ -247,13 +247,13 @@ header {
 	width: 250px;
 }
 
-.box-contact-phone {
+/*.box-contact-phone {
 	background-image: url(../img/bg/bg-contact-1.png);
 	background-size: 100% 100%;
-}
+}*/
 
 .box-contact-wa {
-	background-image: url(../img/bg/bg-contact-2.png);
+	background-image: url(../img/bg/bg-contact-1.png);
 	background-size: 100% 100%;
 }
 
@@ -276,13 +276,20 @@ header {
 	padding-top: 10px;
 }
 
+.box-contact-text span {
+	width: 50%;
+    font-size: 12px;
+    display: block;
+    color: #212121;
+}
+
 .box-contact-phone .box-contact-text {
 	color: #323232 !important;
 }
 
 .box-contact-chat .box-contact-text {
-	line-height: 64px;
-	padding-top: 0px;
+	line-height: 23px;
+	padding-top: 10px;
 }
 
 /*
@@ -1410,6 +1417,7 @@ footer {
 	color: white;
 	letter-spacing: 1px;
 	font-size: 14px;
+	background-color: transparent;
 }
 .blue-btn{
 	background-color: #46b3e6;
